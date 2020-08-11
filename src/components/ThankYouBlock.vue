@@ -5,7 +5,7 @@
 	    <p class="actions"><a class="btn action-button button--share" href="#" target="_blank" @click="mainShare">分享出去</a></p>
 	    <p class="actions"><a class="btn action-button button--whatsappshare" href="#" target="_blank" @click="whatsAppShare"><img src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1853/whatsapp.svg?v=1554003003000" style="max-width: 24px; margin: 0 auto;" /></a></p>
 	    <p class="text">全賴您的支持，讓我們能持續與專家合作，研究出具科學理據，提出能平衡經濟發展需要的能源出路。我們並將持續遊說多個區議會關注氣候危機，促請政府全面研究氣候變化的影響，識別高危地區，制定長遠應對策略，提升應對氣候危機的能力。</p>
-	    <p class="actions"><a class="btn action-button button--support ty-page-donation-link" href="https://act.greenpeace.org/page/4663/donate/1?campaign=climate&amp;ref=2020-climate-thankyou_page" target="_blank">支持我們</a></p>
+	    <p class="actions"><a class="btn action-button button--support ty-page-donation-link" href="https://supporter.ea.greenpeace.org/hk/s/donate?campaign=climate&amp;ref=2020-climate-thankyou_page" target="_blank">支持我們</a></p>
 	</div>
 </template>
 

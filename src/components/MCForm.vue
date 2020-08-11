@@ -59,8 +59,6 @@
 									<select name="MobileCountryCode" v-model="MobileCountryCode" :class="['form-input', classes]">
 										<option value="852">+852</option>
 										<option value="853">+853</option>
-										<option value="886">+886</option>
-										<option value="86">+86</option>
 									</select>
 									<span class="en__field__error" v-if="errors.length">{{ errors[0] }}</span>
 								</ValidationProvider>
@@ -119,8 +117,7 @@
 							</div>
 							<span class="form-label flex-1">
 								<span class="block text-xs text-gray-500">
-									我願意收到綠色和平發送的通訊，讓我能掌握環保工作的最新脈動！我同意綠色和平按照
-									<u>個人資料政策</u>與我聯絡，包括提供環保工作資訊及捐款呼籲等。
+									我願意收到綠色和平發送的通訊，讓我能掌握環保工作的最新脈動！綠色和平尊重並保障您的個人資料，您隨時可取消訂閱，請參考<u><a href="https://www.greenpeace.org/hongkong/policies/privacy-and-cookies/" target="_blank">私隱政策</a></u>。
 								</span>
 							</span>
 						</label>

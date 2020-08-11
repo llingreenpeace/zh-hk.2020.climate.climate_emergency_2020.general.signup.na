@@ -56,10 +56,11 @@
               </div>
               <div class="enform-progress my-4">
                 <div class="overflow-hidden rounded shadow w-full bg-gray-200">
+                  <div>{{this.participants ? this.participants.toLocaleString()+"人已聯署" : "-"}}</div>
                   <div
                     class="bg-cyan transition-all font-bold text-white py-1 text-center"
                     v-bind:style="{width: `${this.signupProgress || 0}%` }"
-                  >{{this.participants ? this.participants.toLocaleString()+"人已聯署" : "-"}} </div>
+                  > </div>
                 </div>
               </div>
               <div class="form-body enform">
